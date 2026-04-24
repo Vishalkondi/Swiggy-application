@@ -1,3 +1,4 @@
+![Uploading Screenshot 2026-04-24 174528.png…]()
 # 🍔 Swiggy Clone – DevOps Real-Time Project
 
 <p align="center">
