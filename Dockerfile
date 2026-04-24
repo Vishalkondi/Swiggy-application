@@ -1,23 +1,26 @@
-# Using Node.js 16 as the base image
+# Use Node.js
 FROM node:16
 
-# Setting up the working directory
+# Set working directory
 WORKDIR /app
 
-# Copying the package.json and package-lock.json files to the working directory
+# Copy dependency files
 COPY package*.json ./
 
-# Installation of npm dependency
+# Install dependencies
 RUN npm install
 
-# Copy the application code
+# Copy project files
 COPY . .
 
-# Buildinf of the React app
+# Build React app
 RUN npm run build
 
-# Expose port 3000 to access app
+# Install lightweight server
+RUN npm install -g serve
+
+# Expose port
 EXPOSE 3000
 
-# Start your Node.js server
-CMD ["npm", "start"]
+# Run production build
+CMD ["serve", "-s", "build"]

@@ -1,63 +1,64 @@
-import React from 'react'
-import './BestRes.css'
+import React from 'react';
+import './BestRes.css';
+
+const cities = [
+  "Bangalore", "Pune", "Mumbai", "Delhi",
+  "Hyderabad", "Kolkata", "Chennai", "Chandigarh",
+  "Ahmedabad", "Jaipur", "Nagpur"
+];
+
+const cuisines = [
+  "Chinese", "South Indian", "Indian", "Kerala",
+  "Korean", "North Indian", "Seafood", "Bengali",
+  "Punjabi", "Italian", "Andhra"
+];
 
 function BestRest() {
   return (
     <div className='d-flex justify-content-center align-items-center mt-5 mb-5'>
-        <div style={{width:"85%"}}>
-            <h4 className='fw-bold'>Best Places to Eat Across Cities</h4>
-            <div className='buttons-grp d-flex justify-content-between'>
-                <button>Best Restaurent in Bangalore</button>
-                <button>Best Restaurent in Pune</button>
-                <button>Best Restaurent in Mumbai</button>
-                <button>Best Restaurent in Delhi</button>
-            </div>
+      <div style={{ width: "85%" }}>
 
-            <div className='buttons-grp d-flex justify-content-between mt-3'>
-                <button>Best Restaurent in Hyderabad</button>
-                <button>Best Restaurent in Kolkata</button>
-                <button>Best Restaurent in Chennai</button>
-                <button>Best Restaurent in Chandigarh</button>
-            </div>
+        {/* Cities Section */}
+        <h4 className='fw-bold'>Best Places to Eat Across Cities</h4>
 
-            <div className='buttons-grp d-flex justify-content-between mt-3'>
-                <button>Best Restaurent in Ahmadabad</button>
-                <button>Best Restaurent in Jaipur</button>
-                <button>Best Restaurent in Nagpur</button>
-                <button>Show More <i className="fa-solid fa-angle-down"></i></button>
-            </div>
-
-            <h4 style={{marginTop:"80px"}} className='fw-bold'>Best Cuisines Near Me</h4>
-
-            <div className='buttons-grp d-flex justify-content-between'>
-                <button>Chinese Restaurant Near Me</button>
-                <button>South Indian Restaurant Near Me</button>
-                <button>Indian Restaurant Near Me</button>
-                <button>Kerala Restaurant Near Me</button>
-            </div>
-
-            <div className='buttons-grp d-flex justify-content-between mt-3'>
-                <button>Korea Restaurant Near Me</button>
-                <button>North India Restaurant Near Me</button>
-                <button>Sea food Restaurant Near Me</button>
-                <button>Bengali Restaurant Near Me</button>
-            </div>
-
-            <div className='buttons-grp d-flex justify-content-between mt-3'>
-                <button>Punjabi Restaurant Near Me</button>
-                <button>Italian Restaurant Near Me</button>
-                <button>Andhra Restaurant Near Me</button>
-                <button>Show More <i className="fa-solid fa-angle-down"></i></button>
-            </div>
-
-            <h4 style={{marginTop:"80px"}} className='fw-bold'>Explore Every Restaurants Near Me</h4>
-            <div className='buttons-grps d-flex justify-content-between mt-3'>
-                <button>Explore Restaurants Near Me</button>
-                <button>Explore Top Rated Restaurants Near Me</button>
-            </div>
+        <div className='d-flex flex-wrap gap-3 mt-3'>
+          {cities.map((city, index) => (
+            <button key={index}>
+              Best Restaurant in {city}
+            </button>
+          ))}
+          <button>
+            Show More <i className="fa-solid fa-angle-down"></i>
+          </button>
         </div>
+
+        {/* Cuisine Section */}
+        <h4 className='fw-bold mt-5'>Best Cuisines Near Me</h4>
+
+        <div className='d-flex flex-wrap gap-3 mt-3'>
+          {cuisines.map((cuisine, index) => (
+            <button key={index}>
+              {cuisine} Restaurant Near Me
+            </button>
+          ))}
+          <button>
+            Show More <i className="fa-solid fa-angle-down"></i>
+          </button>
+        </div>
+
+        {/* Explore Section */}
+        <h4 className='fw-bold mt-5'>
+          Explore Every Restaurant Near Me
+        </h4>
+
+        <div className='d-flex flex-wrap gap-3 mt-3'>
+          <button>Explore Restaurants Near Me</button>
+          <button>Explore Top Rated Restaurants Near Me</button>
+        </div>
+
+      </div>
     </div>
-  )
+  );
 }
 
-export default BestRest
+export default BestRest;

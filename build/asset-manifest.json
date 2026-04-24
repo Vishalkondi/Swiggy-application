@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Swiggy-application/static/css/main.4b48da37.css",
+    "main.js": "/Swiggy-application/static/js/main.7ad2b31d.js",
+    "static/media/Banner2.png": "/Swiggy-application/static/media/Banner2.1070a43a3549ef20ca41.png",
+    "static/media/Banner1.png": "/Swiggy-application/static/media/Banner1.59e666e290b50fabf4dc.png",
+    "static/media/Banner4.png": "/Swiggy-application/static/media/Banner4.c6330cf4ab0878879d89.png",
+    "static/media/Banner3.png": "/Swiggy-application/static/media/Banner3.dabf82bb335e37885164.png",
+    "index.html": "/Swiggy-application/index.html",
+    "main.4b48da37.css.map": "/Swiggy-application/static/css/main.4b48da37.css.map",
+    "main.7ad2b31d.js.map": "/Swiggy-application/static/js/main.7ad2b31d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b48da37.css",
+    "static/js/main.7ad2b31d.js"
+  ]
+}
