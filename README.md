@@ -1,4 +1,3 @@
-![Uploading Screenshot 2026-04-24 174528.png…]()
 # 🍔 Swiggy Clone – DevOps Real-Time Project
 
 <p align="center">
@@ -71,7 +70,8 @@ Developer → GitHub → Jenkins → Build
 
 ## 📸 Project Screenshots
 
-<p align="center">
+<p ali![Uploading Screenshot 2026-04-24 174528.png…]()
+gn="center">
   <img src="https://via.placeholder.com/800x400?text=Swiggy+Home+UI" width="80%" />
   <br><br>
   <img src="https://via.placeholder.com/800x400?text=Restaurant+Listing" width="80%" />
