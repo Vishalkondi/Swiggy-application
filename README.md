@@ -1,6 +1,7 @@
 # 🚀 **DevOps Real-time Project: Swiggy Clone App Deployment**
 
 In this **real-time DevOps project**, I demonstrate how to **deploy a Swiggy Clone App** using various modern tools and services in the DevOps ecosystem.
+This project demonstrates a real-world DevOps pipeline by deploying a Swiggy Clone React Application using modern DevOps tools and best practices
 ## 🛠️ Tools & Services Used:
 
 1. **Terraform** ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
@@ -11,12 +12,7 @@ In this **real-time DevOps project**, I demonstrate how to **deploy a Swiggy Clo
 6. **Trivy** ![Trivy](https://img.shields.io/badge/Trivy-00979D?style=flat-square&logo=trivy&logoColor=white)
 7. **Docker & DockerHub** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![DockerHub](https://img.shields.io/badge/DockerHub-2496ED?style=flat-square&logo=docker&logoColor=white)
 
----
-
-
-\
-
----
+-
 
 ## About Me  
 <img src="https://media.licdn.com/dms/image/v2/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718971147172?e=1733356800&v=beta&t=bz-SXs7FHwIDqQ9xlPibErrGvpHDdAjMJEr9WqHsi9A" alt="Kastro Profile Image" width="150" height="150" style="border-radius:50%;">
